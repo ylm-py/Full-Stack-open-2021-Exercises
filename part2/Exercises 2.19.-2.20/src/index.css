@@ -1,0 +1,26 @@
+h1{
+  color:green;
+}
+
+.notification{
+  width:50%;
+  height:auto;
+  padding:10px;
+  border: 2px solid rgb(94, 93, 93);
+  font-weight: 600;
+  text-align: center;
+  
+}
+.successfully-added{
+  background-color: rgb(101, 184, 101);
+
+}
+.user-exist{
+  background-color: rgb(224, 118, 118);
+}
+.update{
+  background-color: beige;
+}
+.delete{
+  background-color: rgb(255, 141, 141);
+}
