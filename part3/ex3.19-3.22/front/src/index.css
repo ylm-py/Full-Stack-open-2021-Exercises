@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.container{
+  width:1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+table{
+  width:100%;
+  border-collapse: collapse;
+}
+table th{
+  background-color: #f5f5f5;
+  text-align: left;
+  padding: 10px 0 10px 0;
+}
+table tr{
+  border-bottom: 1px solid #ddd;
+}
+button{
+  background-color: #c46041;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+tr th:last-child {
+  white-space: nowrap;
+  width:20%;
+}
+h1{
+  align-self: center;
+}
+.head{
+  /* display elements in the same */
+  display:flex;
+  /* align elements horizontally */
+  justify-content: space-between;
+}
+.btns-container{
+  display:flex;
+  gap:10px;
+}
+.btn-add{
+  background-color: #5edd60;
+  width:85px;
+  border-radius: 5px;
+  
+}
+.btn-confirm{
+  background-color: #565352;
+  width:85px;
+  border-radius: 5px;
+}
+.btn-cancel{
+  background-color: #ac3737;
+  width:85px;
+  border-radius: 5px;
+}
+.add-new{
+  display: flex;
+  flex-direction: column;
+  width:25%;
+
+  
+}
+.actions{
+  display:flex;
+  /* align elements horizontally */
+  gap: 10px;
+}
+.edit-btn{
+  background-color: #2dbaae;
+  border-radius: 5px;
+}
+.error{
+  color:red;
+  /* align vertically */
+  width:40%;
+  align-items: center;
+  background-color: #ddd;
+  height: fit-content;
+  border-radius: 3px;
+  align-self: center;
+  font-size: 14px;
+
+}
